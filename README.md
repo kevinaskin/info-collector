@@ -1,9 +1,27 @@
-# It's a personal proj to collect info by webpage
+# INFO-COLLECTOR
+## in use of collect infomation in wechat-grouptalk
 
-### todo
+### front-end
+Vue.js
 
-- user system
-- create questions page (enter password)
-  - key
-  - json(ext)
-- download statistic
+### back-end
+egg.js
+
+### RUN
+- fill the `/backend/config/config.minus.js` with your own `jwtSalt`
+- fill the `/backend/config/config.default.js` -> `domainWhiteList` with your own host
+  - e.g. `http://q.kevinaskin.cn`
+```
+$ mongod
+$ cd backend
+$ npm install
+$ npm start
+
+$ cd ../frontend
+$ npm install
+$ npm run build
+```
+
+parsing your own host at `/frontend/dist/`
+
+[online example](http://q.kevinaskin.cn)
