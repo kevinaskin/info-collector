@@ -25,3 +25,11 @@ $ npm run build
 parsing your own host at `/frontend/dist/`
 
 [online example](http://q.kevinaskin.cn)
+
+![index](https://github.com/kevinaskin/info-collector/blob/master/screenshoot/index.png)
+
+
+![question](https://github.com/kevinaskin/info-collector/blob/master/screenshoot/q.png)
+
+
+![list](https://github.com/kevinaskin/info-collector/blob/master/screenshoot/list.png)
